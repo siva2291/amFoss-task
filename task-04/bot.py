@@ -47,7 +47,7 @@ def getMovie(message):
 
     # TODO: 1.2 Get movie information from the API
     details=[]
-    r=requests.get(f"http://www.omdbapi.com/?apikey=e2f1652e&t={b}")
+    r=requests.get(f"http://www.omdbapi.com/?apikey=--------&t={b}")
     print(r.text)
     # TODO: 1.3 Show the movie information in the chat window  with open('data.json') as json_file:
     data=json.loads(r.text)
